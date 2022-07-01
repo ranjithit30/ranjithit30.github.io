@@ -1,0 +1,49 @@
+.articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+} 
+.WebContainer{
+    width:100%;
+    min-width:1000px;
+    height:auto;
+} 
+body { padding: 0; margin: 0; }
+@font-face {
+    font-family: 'Product Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  }
+  
+  
+  
+  body {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 100vh;
+      font-family: Product Sans;
+      padding: 20px;
+      background-color: #F3F3F3;
+  }
+  .user{
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #d9d9d9, 
+                 -20px -20px 60px #ffffff;
+  }
+.projects{
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #d9d9d9, 
+               -20px -20px 60px #ffffff;
+               height: 600px;
+}
+.pro1{
+  border-radius: 14px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #d9d9d9, 
+               -20px -20px 60px #ffffff;
+               height: 600px;
+}
